@@ -45,7 +45,8 @@
         "use-react-router-breadcrumbs": "^4.0.1",
         "keycloak-js": "26.0.7",
         "@keycloak/keycloak-admin-client": "26.0.7",
-        "@keycloakify/keycloak-ui-shared": "~260007.0.2"
+        "@keycloakify/keycloak-ui-shared": "~260007.0.2",
+        "@keycloakify/keycloak-account-ui": "~260007.0.3"
     },
     "devDependencies": {
         "@eslint/js": "^9.15.0",

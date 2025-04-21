@@ -1,0 +1,79 @@
+/* .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    transform: translateX(2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(37, 117, 252, 0.5);
+  }
+
+  .primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+  }
+
+  .secondary {
+    background: linear-gradient(45deg, #77a5d3, #188bfd);
+    color: white;
+  }
+  
+  .tertiary {
+    background: linear-gradient(45deg, #0f1421, #400082);
+    color: white;
+  }  
+
+  .link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .link:hover {
+    box-shadow: unset;
+  }
+  
+  .link:hover::after {
+    transform: translateX(-50%) scaleX(1);
+  }
+  
+  .plain {
+    background: none;
+    color: inherit;
+    box-shadow: none;
+  }
+  
+  .plain:hover {
+    background: rgba(0, 0, 0, 0.05);
+    transform: none;
+  }
+  
+  .control {
+    background: linear-gradient(45deg, #17a2b8, #117a8b);
+    color: white;
+  }
+  */

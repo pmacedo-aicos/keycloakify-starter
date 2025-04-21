@@ -1,0 +1,29 @@
+[id^="pf-random-id-"], .pf-m-display-inline, .pf-v5-c-toolbar__item button, .pf-v5-c-button__icon svg {
+    background-color: #022B7A;
+}
+
+.pf-v5-c-masthead__brand {
+    margin-left: 10px;
+}
+
+.pf-v5-c-nav__list, ul {
+    padding-top: 0 !important; 
+    padding-bottom: 0 !important; 
+}
+
+.pf-v5-c-page__main-section, .pf-v5-c-form__group button, input {
+    background-color: white !important;
+}
+
+.pf-v5-c-toolbar__item .pf-v5-c-menu-toggle span, .pf-v5-c-button__icon svg {
+    color: white !important;
+}
+
+h1, p, input, label span, #locale span, a span, #favourite_pet span, span.pf-v5-c-menu__item-text {
+    color: black !important
+}
+
+#save-btn {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+}

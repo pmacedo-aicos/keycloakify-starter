@@ -211,27 +211,28 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
 
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div className="container">
-                <div className="left-section">
-                    <img src={EU_Logo} width={200} alt="Publications Office of the EU" className="logo" />
-                    <p className="description">
-                        This website is managed by the{" "}
-                        <a href="https://op.europa.eu/" className="link">
-                            Publications Office of the European Union
-                        </a>
-                    </p>
-                </div>
+                    <div className="container">
+                        <div className="left-section">
+                            <img src={EU_Logo} width={100} alt="Publications Office of the EU" className="logo" />
+                            <p className="description">
+                                This website is managed by the{" "}
+                                <a href="https://op.europa.eu/" className="link">
+                                    Publications Office of the European Union
+                                </a>
+                            </p>
+                        </div>
 
-                <div className="right-section">
-                    <span className="legal-title">Legal</span>
-                    <ul>
-                        <li><a href="https://data.europa.eu/en/copyright-notice">Legal notice</a></li>
-                        <li><a href="https://dataeuropa.gitlab.io/data-provider-manual/legal-notice/cookies">Cookies</a></li>
-                        <li><a href="https://op.europa.eu/web/about-us/legal-notices/accessibility-statement">Accessibility</a></li>
-                    </ul>
+                        <div className="right-section">
+                            <span className="legal-title">Legal</span>
+                            <ul>
+                                <li><a href="https://data.europa.eu/en/copyright-notice">Legal notice</a></li>
+                                <li><a href="https://dataeuropa.gitlab.io/data-provider-manual/legal-notice/cookies">Cookies</a></li>
+                                <li><a href="https://op.europa.eu/web/about-us/legal-notices/accessibility-statement">Accessibility</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

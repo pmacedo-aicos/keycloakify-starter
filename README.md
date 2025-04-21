@@ -20,6 +20,31 @@ yarn install # Or use an other package manager, just be sure to delete the yarn.
 
 [Documentation](https://docs.keycloakify.dev/customization-strategies)
 
+You need to have docker installed.
+
+Generate .jar file
+
+- On Debian/Ubuntu: `npm run build-keycloak-theme`
+
+Run .jar file:
+
+- On Debian/Ubuntu:
+
+`docker run \
+-p 8081:8080 \
+-e KEYCLOAK_ADMIN=admin \
+-e KEYCLOAK_ADMIN_PASSWORD=admin \
+-v "$(pwd)/dist_keycloak/my-theme.jar:/opt/keycloak/providers/keycloak-theme.jar" \
+quay.io/keycloak/keycloak:26.0.7 \
+start-dev`
+
+Steps to apply the custom CSS:
+
+1 - Login with admin/admin
+2 - On the left tab side, click on Realm Settings -> tab Themes
+3 - Set Login theme and Admin theme to "keycloakify-starter"
+4 - Refresh the page
+ 
 # Building the theme
 
 You need to have [Maven](https://maven.apache.org/) installed to build the theme (Maven >= 3.1.1, Java >= 7).  

@@ -6,7 +6,7 @@ html, body {
 .kcLoginClass {
     width: 100%;
     max-width: 500px;
-    margin-bottom: auto;
+    padding-top: 10%;
 }
 .kcBodyClass {
     background-color: #F2F5F9 !important;
@@ -48,7 +48,8 @@ html, body {
     justify-content: space-between;
     gap: 30px;
     margin-top: 40px;
-    padding: 0 10px;
+    padding-left: unset !important;
+    bottom: unset !important;
   } 
 .left-section, .right-section {
     display: flex;

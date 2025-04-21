@@ -74,4 +74,4 @@ function useCustomStyles(kcContext: KcContext) {
     }, []);
 }
 
-const classes = {} satisfies { [key in ClassKey]?: string };
+export const classes = {} satisfies { [key in ClassKey]?: string };
